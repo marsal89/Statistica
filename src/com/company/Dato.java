@@ -1,30 +1,26 @@
 package com.company;
 
 public class Dato {
-    private String cognome;
-    private String nome;
-    private float altezza;
+    private String Cognome;
+    private String Nome;
+    private float Altezza;
 
-    Dato(String cognome,String nome,float altezza) {
-        this.cognome = cognome;
-        this.nome = nome;
-        this.altezza = altezza;
+    Dato(String Cognome,String Nome,float Altezza) {
+        this.Cognome = Cognome;
+        this.Nome = Nome;
+        this.Altezza = Altezza;
     }
 
-    public String getCognome(String cognome){
+    public String getCognome(){
+        return this.Cognome=Cognome;
 
-        return cognome;
     }
 
-    public String getNome(String nome){
-        return nome;
+    public String getNome(){
+        return this.Nome=Nome;
     }
-    public float getAltezza(float altezza){
+    public float getAltezza(){
+        return this.Altezza=Altezza;
+    }
 
-        return altezza;
-    }
-
-    public float getAltezza() {
-        return this.altezza=altezza;
-    }
 }

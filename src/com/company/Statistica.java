@@ -7,6 +7,7 @@ public class Statistica {
 
     public Statistica(){
         Dato[] dati = new Dato[3];
+        count=0;
     }
 
     public Dato getDato(int k){
@@ -17,5 +18,8 @@ public class Statistica {
         Dato dati2= new Dato (nome,cognome,altezza);
         dati[count]= dati2;
         count++;
+    }
+    public int getCount(int count){
+        return count;
     }
 }

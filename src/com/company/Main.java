@@ -26,7 +26,14 @@ public class Main {
             case 2:
                 System.out.println("inserisci numero da 1 a 3");
                 int k = input.nextInt();
-                System.out.println();
+                System.out.println(stat.getDato(k).getNome());
+                System.out.println(stat.getDato(k).getCognome());
+                System.out.println(stat.getDato(k).getAltezza());
+                i= input.nextInt();
+                break;
+
+            default:
+                break;
             }
         }
 
